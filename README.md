@@ -1,2 +1,2 @@
 # docker-luarocks
-luarocks docker container across different architecture.
+luarocks docker container across multiple architectures.
