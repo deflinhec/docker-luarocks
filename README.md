@@ -11,13 +11,11 @@ luarocks docker container across multiple architectures.
 - linux/arm64
 - linux/armv7
 
-## :whale: Prebuilt Images
+## :whale: [Prebuilt Images](https://hub.docker.com/repository/docker/deflinhec/luarocks/tags?page=1&ordering=last_updated)
 
 - lua 5.1
 - lua 5.2
 - lua 5.3
-
-[DockerHub](https://hub.docker.com/repository/docker/deflinhec/luarocks/tags?page=1&ordering=last_updated)
 
 ## :coffee: Donation
 
