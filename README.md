@@ -17,6 +17,4 @@ luarocks docker container across multiple architectures.
 - lua 5.2
 - lua 5.3
 
-## :coffee: Donation
-
-[buy me a coffee](https://ko-fi.com/deflinhec) 
+## :coffee: [Donation](https://ko-fi.com/deflinhec) 
