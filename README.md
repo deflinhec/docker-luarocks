@@ -2,7 +2,7 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/deflinhec/docker-luarocks/graphs/commit-activity)
 
 # docker-luarocks
-luarocks docker container across multiple architectures.
+luarocks docker image across multiple architectures.
 
 
 ## :dart: Supporting Architectures
