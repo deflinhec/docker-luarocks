@@ -1,13 +1,13 @@
-FROM alpine:latest
+FROM centos:centos7
 LABEL maintainer "deflinhec <deflinhec@gmail.com>"
 
 ARG LUA
-ENV LUA_VERSION=${LUA:-5.3.6} \
+ENV LUA_VERSION=${LUA:-5.1.5} \
     LUAROCKS_VERSION=2.4.2
 
-RUN apk add --update \
+RUN yum update -y && yum install -y \
         make tar unzip gcc \
-        openssl-dev readline-dev curl libc-dev
+        openssl-devel readline-devel curl libc-devel
 
 RUN curl -L http://www.lua.org/ftp/lua-${LUA_VERSION}.tar.gz | tar xzf - && \
     \
