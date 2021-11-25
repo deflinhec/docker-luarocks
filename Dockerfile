@@ -2,7 +2,7 @@ FROM centos:centos7
 LABEL maintainer "deflinhec <deflinhec@gmail.com>"
 
 ARG LUA
-ENV LUA_VERSION=${LUA:-5.2.4} \
+ENV LUA_VERSION=${LUA:-5.3.6} \
     LUAROCKS_VERSION=2.4.2
 
 RUN yum update -y && yum install -y \
